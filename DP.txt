@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <limits.h>
+
+int main() 
+{
+	printf("Signed char range: %d ... %d\n", SCHAR_MIN, SCHAR_MAX);
+	printf("Unsigned char range: 0 ... %u\n", UCHAR_MAX);
+	printf("\n");
+
+	printf("Signed short range: %d ... %d\n", SHRT_MIN, SHRT_MAX);
+	printf("Unsigned char range: 0 ... %u\n", USHRT_MAX);
+	printf("\n");
+
+	printf("Signed int range: %d ... %d\n", INT_MIN, INT_MAX);
+	printf("Unsigned int range: 0 ... %u\n", UINT_MAX);
+	printf("\n");
+
+	
+	printf("Signed long range: %d ... %d\n", LONG_MIN, LONG_MAX);
+	printf("Unsigned long range: 0 ... %u\n", ULONG_MAX);
+	return 0;

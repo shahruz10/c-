@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+	double y;
+	const float x = 2.55;
+	y = 3 * x * x * x - 5 * x * x + 6;
+	printf("%f", y);
+	return 0;
+}

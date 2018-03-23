@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i = 996;
+	int j = 4;
+	i = i + j - i % j;
+	printf("%d", i);
+	return 0;
+}

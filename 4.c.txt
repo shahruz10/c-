@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+	const F = 27;
+	float C;
+	C = (F - 32) / 1.8;
+	printf("27 F = %.2f C", C);
+	return 0;
+}
